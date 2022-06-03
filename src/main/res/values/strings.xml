@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">M-Angkot</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="belum_punya_akun_register">Belum punya akun? <b>Register</b></string>
+    <string name="register">Register</string>
+    <string name="sudah_memiliki_akun_login">Sudah memiliki akun? <b>Login</b></string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="routes">Routes</string>
+    <string name="rute_yang_dilewati"><b>Rute yang dilewati:</b></string>
+    <string name="jarak"><b>Jarak</b></string>
+    <string name="nama_rute"><b>Nama Rute</b></string>
+    <string name="direction">Direction</string>
+    <string name="biaya">Biaya</string>
+    <string name="rekomendasi">Rekomendasi</string>
+    <string name="silahkan_pergi_menuju_titik_naik">Silahkan pergi menuju titik naik</string>
+    <string name="lokasi_keberangkatan">Lokasi Keberangkatan</string>
+    <string name="gunakan_lokasi_saat_ini">Gunakan lokasi saat ini</string>
+    <string name="cari_kembali_rekomendasi">Cari kembali rekomendasi</string>
+    <string name="logout">Logout</string>
+</resources>
