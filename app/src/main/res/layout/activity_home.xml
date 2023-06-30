@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_home_move"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:text="@string/silahkan_pergi_menuju_titik_naik"
+        android:visibility="gone"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/bot_sheet_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_rute"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_home_route_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="?android:textColorPrimary"
+            tools:text="Contoh Nama Rute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rute_yang_dilewati"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_home_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="?android:textColorPrimary"
+            tools:text="Ini - Adalah - Contoh - Rute" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jarak"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_home_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:textColor="?android:textColorPrimary"
+                tools:text="1Km" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/biaya"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_home_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:textColor="?android:textColorPrimary"
+                tools:text="Rp10.000" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_home_directoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direction"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_home_recomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cari_kembali_rekomendasi"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929077699808",
+    "project_id": "m-angkot",
+    "storage_bucket": "m-angkot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929077699808:android:343c04a5d82a508f0adc85",
+        "android_client_info": {
+          "package_name": "com.rafif.m_angkot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929077699808-bjp09e38g6usr0g9ai8tmudtqii195bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-qpoKqgEz7S80dHfSnYz6vcvr21i5A1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929077699808-bjp09e38g6usr0g9ai8tmudtqii195bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
